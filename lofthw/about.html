@@ -4,22 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>about page</title>
-  <link href="./css/common.css" rel="stylesheet"></head>
+  <link href="./css/common.css" rel="stylesheet"><link href="./css/about.css" rel="stylesheet"></head>
   <body>
     <section class="section hero">
-      <ul class="socials hero__socials">           
-        <li class="socials__item"><a class="socials__item_vk socials__link" href="#"></a></li>
-        <li class="socials__item"><a class="socials__item_tw socials__link" href="#"></a></li>
-        <li class="socials__item"><a class="socials__item_in socials__link" href="#"></a></li>
-      </ul>
-      <div class="hero__menu hamburger">           </div>
+      <div class="hero__row">
+        <ul class="socials hero__socials">
+          <li class="socials__item"><a class="socials__link_vk socials__link" href="#"></a></li>
+          <li class="socials__item"><a class="socials__link_git socials__link" href="#"></a></li>
+          <li class="socials__item"><a class="socials__link_in socials__link" href="#"></a></li>
+        </ul>
+        <div class="hero__menu">
+          <div class="hero__menu-position hamburger"></div>
+        </div>
+      </div>
       <div class="hero__title">
-        <div class="section-title"><img class="section-title__pic"></div>
+        <div class="section-title">
+          <svg class="section-title__pic"></svg>
+        </div>
         <div class="user hero__user">
-          <div class="user__pic"><img class="user__avatar"></div>
+          <div class="user__pic"><img class="user__avatar" src="./hero_pic.jpg" alt=""></div>
           <div class="user__description">
-            <div class="user__name">Киров Сергей</div>
-            <div class="user__info">Личный сайт разработчика</div>
+            <div class="user__name user__name-margin">Киров Сергей</div>
+            <div class="user__info">Личный сайт веб-разработчика</div>
           </div>
         </div>
       </div>
@@ -168,5 +174,5 @@
         </div>
       </div>
     </footer>
-  <script type="text/javascript" src="./js/common.js"></script></body>
+  <script type="text/javascript" src="./js/common.js"></script><script type="text/javascript" src="./js/about.js"></script></body>
 </html>
