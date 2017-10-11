@@ -6,6 +6,14 @@
     <title>works page</title>
   <link href="./css/common.css" rel="stylesheet"><link href="./css/works.css" rel="stylesheet"></head>
   <body>
+<div class="total-menu total-menu-hidden">
+  <div class="total__list">
+    <li class="total__item total__item-margin"><a class="total__link" href="./works.html">мои работы</a></li>
+    <li class="total__item total__item-margin"><a class="total__link" href="./blog.html">блог</a></li>
+    <li class="total__item total__item-margin"><a class="total__link" href="./about.html">обо мне</a></li>
+    <li class="total__item total__item-margin"><a class="total__link" href="./index.html">авторизация</a></li>
+  </div>
+</div>
 <section class="section hero">
   <div class="hero__row">
     <ul class="socials hero__socials">
@@ -14,7 +22,7 @@
       <li class="socials__item socials__item_hero"><a class="socials__link_in socials__link" href="#"></a></li>
     </ul>
     <div class="hero__menu">
-      <div class="hamburger"></div>
+      <div class="hamburger" id="hamburger-1"><span class="line"></span><span class="line"></span><span class="line"></span></div>
     </div>
   </div>
   <div class="hero__title">
@@ -45,15 +53,32 @@
     <div class="slider__title_text block_title">Мои работы</div>
   </div>
   <div class="slider__block">
-    <div class="slider__info">Информация</div>
-    <div class="slider__display">Большая картинка</div>
-    <div class="slider__btns">Кнопки</div>
+    <div class="slider__info">
+      <div class="slider__info_wrap">
+        <div class="slider__info_title">Сайт школы онлайн Образования</div>
+        <div class="slider__info_tools">HTML , CSS, JAVASCRIPT</div>
+        <button class="slider__info_button"><a>Посмотреть сайт</a></button>
+      </div>
+    </div>
+    <div class="slider__display">
+      <div class="slider__display_img"><img class="slider__item" src="./images/slide1.png" alt=""></div>
+    </div>
+    <div class="slider__btns">
+      <div class="slider__btns_left">
+        <div class="slider__left_img"><img class="slider__left-prev" src="./images/slide1-prev.png" alt=""></div>
+        <div class="slider__left_arr"></div>
+      </div>
+      <div class="slider__btns_right">
+        <div class="slider__right_img"><img class="slider__right-prev" src="./images/slide2-prev.png" alt=""></div>
+        <div class="slider__right_arr"></div>
+      </div>
+    </div>
   </div>
 </section>
     <section class="section review">
       <div class="review__title review__title-margin">
         <div class="review__title_bgr"></div>
-        <div class="review__title_block block_title">Что обо мне говорят</div>
+        <div class="review__title_block">Что обо мне говорят</div>
       </div>
       <div class="review__block">
         <div class="review__content">
@@ -90,7 +115,7 @@
         <div class="feedback__wrapper feedback_margin">
           <div class="feedback__block">
             <div class="feedback_blur"></div>
-            <div class="feedback__title block-title">Связаться со мной</div>
+            <div class="feedback__title">Связаться со мной</div>
             <div class="feedback__inputs">
               <input class="feedback__input feedback__input-name" type="text" placeholder="Имя">
               <input class="feedback__input feedback__input-email" type="text" placeholder="Email">
@@ -98,8 +123,8 @@
             </div>
           </div>
           <div class="feedback__buttons buttons">
-            <button class="button__item button_basis"><a class="button__link" href="#">На главную</a></button>
-            <button class="button__item button_basis"><a class="button__link" href="#">Войти</a></button>
+            <button class="button__item button_basis"><a class="button__link" href="#">Отправить</a></button>
+            <button class="button__item button_basis"><a class="button__link" href="#">Очистить</a></button>
           </div>
         </div>
       </div>
