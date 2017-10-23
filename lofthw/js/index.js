@@ -35,15 +35,15 @@ var portpro =
   flipFunc:function() {
     let 
       flipContainer = $('.flip-container'),
-      button = $('.welcome__button_link');
+      buttons = $('.welcome__button_link, .button__return');
 
 
-    button.on( 'click' , function() {
+    buttons.on( 'click' , function() {
       flipContainer.toggleClass('hover');
     });
   },
 };
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
 
